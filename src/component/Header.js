@@ -7,18 +7,19 @@ import house from  '../images/houseicon.svg';
 function Header() {
     return (
 
-        <div className="header">
 
-            <div className='house__icon'>
+        <div className="header">
             <img src={house} alt="house logo" />
+           
+            <div className='nav_menu'>
             <div>Home</div>
             <div>Place To Stay</div>
             <div>NFTs</div>
             <div>Community</div>
-            <div id= 'connect'>Connect Wallet</div>
            </div>
+           <button id='connect'>Connect Wallet</button>
 
-      
+          
       </div>
     );
   }
