@@ -1,10 +1,10 @@
 import React from 'react';
 import './Inspiration.css';
 
-function Inspiration() {
+function Inspiration(){
   return (
-    <div>
-        
+    <div id='inspireWrapper'>
+        <div><h1 id='inspire'>Inspiration for your next adventure</h1></div>
       
     </div>
   )

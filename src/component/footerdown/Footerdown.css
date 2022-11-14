@@ -1,0 +1,77 @@
+#footerdown{
+
+    /* position: absolute; */
+    width: 100%;
+    /* min-height: 0vh; */
+    /* left: 0px; */
+    /* top: 2568px; */
+    display: flex;
+    background: #1D1D1E;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5% 5% 3% 5%;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+#metabnb__down{ 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+#community{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#places{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#socials{
+    /* position: absolute; */
+    left: 7.85%;
+    right: 90.9%;
+    top: 60.25%;
+    bottom: 34.16%;
+    display: flex;
+    gap:27px;
+
+}
+
+#copyright__down{
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+#information__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 217px;
+
+    /* position: absolute; */
+    width: 698px;
+    height: 169px;
+    left: 533px;
+    top: 63px;
+
+
+}
+
+
