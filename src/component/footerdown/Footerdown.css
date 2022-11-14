@@ -1,10 +1,5 @@
 #footerdown{
-
-    /* position: absolute; */
     width: 100%;
-    /* min-height: 0vh; */
-    /* left: 0px; */
-    /* top: 2568px; */
     display: flex;
     background: #1D1D1E;
     width: 100%;
@@ -39,7 +34,6 @@
     gap: 15px;
 }
 #socials{
-    /* position: absolute; */
     left: 7.85%;
     right: 90.9%;
     top: 60.25%;
@@ -64,8 +58,6 @@
     align-items: center;
     padding: 0px;
     gap: 217px;
-
-    /* position: absolute; */
     width: 698px;
     height: 169px;
     left: 533px;
