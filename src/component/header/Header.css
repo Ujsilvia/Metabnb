@@ -18,6 +18,11 @@
     gap: 5%;
     width: 100%;
   }
+
+  .nav_menu :hover{
+    color: #a02279;
+    cursor: pointer;
+  }
   
   #connect {
     color: #ffffff;

@@ -25,7 +25,7 @@ function Inspiration() {
               <p>2345km away</p>
             </div>
             <div className="letters__right">
-              <p>1MBT per night</p>
+              <p id='miniature__letter'>1MBT per night</p>
               <p>available for 2weeks stay</p>
             </div>
           </div>
@@ -41,7 +41,7 @@ function Inspiration() {
               <p>2345km away</p>
             </div>
             <div className="letters__right">
-              <p>1MBT per night</p>
+            <p id='miniature__letter'>1MBT per night</p>
               <p>available for 2weeks stay</p>
             </div>
           </div>
@@ -57,7 +57,7 @@ function Inspiration() {
               <p>2345km away</p>
             </div>
             <div className="letters__right">
-              <p>1MBT per night</p>
+            <p id='miniature__letter'>1MBT per night</p>
               <p>available for 2weeks stay</p>
             </div>
           </div>
@@ -73,7 +73,7 @@ function Inspiration() {
               <p>2345km away</p>
             </div>
             <div className="letters__right">
-              <p>1MBT per night</p>
+            <p id='miniature__letter'>1MBT per night</p>
               <p>available for 2weeks stay</p>
             </div>
           </div>
@@ -89,7 +89,7 @@ function Inspiration() {
               <p>2345km away</p>
             </div>
             <div className="letters__right">
-              <p>1MBT per night</p>
+            <p id='miniature__letter'>1MBT per night</p>
               <p>available for 2weeks stay</p>
             </div>
           </div>
@@ -105,7 +105,7 @@ function Inspiration() {
               <p>2345km away</p>
             </div>
             <div className="letters__right">
-              <p>1MBT per night</p>
+            <p id='miniature__letter'>1MBT per night</p>
               <p>available for 2weeks stay</p>
             </div>
           </div>
@@ -121,7 +121,7 @@ function Inspiration() {
               <p>2345km away</p>
             </div>
             <div className="letters__right">
-              <p>1MBT per night</p>
+            <p id='miniature__letter'>1MBT per night</p>
               <p>available for 2weeks stay</p>
             </div>
           </div>
@@ -136,7 +136,7 @@ function Inspiration() {
               <p>2345km away</p>
             </div>
             <div className="letters__right">
-              <p>1MBT per night</p>
+            <p id='miniature__letter'>1MBT per night</p>
               <p>available for 2weeks stay</p>
             </div>
           </div>

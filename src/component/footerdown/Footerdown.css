@@ -62,8 +62,30 @@
     height: 169px;
     left: 533px;
     top: 63px;
-
-
 }
 
+#community__footer{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Red Rose';
+}
+
+
+#places__styling{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Red Rose';
+}
+
+#about__us{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
 

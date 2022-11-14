@@ -52,3 +52,11 @@ color: #000000;
 
 }
 
+#miniature__letter{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px; 
+    color: #434343;
+}

@@ -26,7 +26,7 @@ function Footerdown() {
 
       {/* Community */}
       <div id="community">
-        <h4>Community</h4>
+        <h4 id='community__footer'>Community</h4>
         <p>NFT</p>
         <p>Tokens</p>
         <p>Landlords</p>
@@ -35,7 +35,7 @@ function Footerdown() {
 
       {/* Places */}
       <div id="places">
-        <h4>Places</h4>
+        <h4 id='places__styling'>Places</h4>
         <p>Castle</p>
         <p>Farms</p>
         <p>Beach</p>
@@ -44,7 +44,7 @@ function Footerdown() {
 
       {/* About us */}
       <div id="aboutus">
-        <h4>About us</h4>
+        <h4 id='about__us'>About us</h4>
         <p>Road map</p>
         <p>Creators</p>
         <p>Career</p>
