@@ -1,0 +1,15 @@
+#down__imh{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 774px;
+left: 0px;
+top: 1794px;
+
+/* MAJOR */
+
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border: 1px solid #000000;
+
+}
