@@ -1,0 +1,25 @@
+#ptsWrapper{
+    min-height: 100vh;
+    padding: 5%;
+}
+
+.header__pts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 2% 5%;
+    gap: 8px;
+    left: 31.4%;
+    right: 17.58%;
+    top: 31.25%;
+    bottom: 20.83%;
+}
+
+#location__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

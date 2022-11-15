@@ -6,3 +6,7 @@
   box-sizing: border-box;
   font-family: 'Red Rose', cursive;
 }
+
+a{
+  text-decoration: none;
+}

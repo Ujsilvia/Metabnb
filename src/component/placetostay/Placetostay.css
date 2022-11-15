@@ -1,0 +1,74 @@
+#placetostay__container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    margin-top: 3%;
+    /* width: 100%; */
+    
+}
+
+/* 
+#inspireWrapper{
+    min-height: 100vh;
+    padding: 5%;
+}
+#inspire{
+width: 100%;
+text-align: center;
+height: 60px;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+color: #000000;
+
+}
+
+#inspire__container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    margin-top: 3%;
+    
+}
+.inspireclass{
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    padding: 1%;
+}
+.letters__inspire2{
+    border: 1px solid red;
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.letters__right{
+    text-align: right;
+    padding: 0;
+    line-height: 200%;
+
+}
+
+.letters__left{
+    text-align: left;
+    padding: 0;
+
+    line-height: 200%;
+
+}
+
+#miniature__letter{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px; 
+    color: #434343;
+} */

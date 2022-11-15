@@ -4,7 +4,7 @@
     padding: 5%;
 }
 #inspire{
-width: 100%;
+/* width: 100%; */
 text-align: center;
 height: 60px;
 font-style: normal;
@@ -17,11 +17,12 @@ color: #000000;
 
 #inspire__container{
     display:flex;
-    /* flex-direction: column; */
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap:30px;
     margin-top: 3%;
+    /* width: 100%; */
     
 }
 .inspireclass{
@@ -35,6 +36,7 @@ color: #000000;
     font-size: 12px;
     gap: 10px;
     justify-content: space-between;
+
 }
 
 .letters__right{
