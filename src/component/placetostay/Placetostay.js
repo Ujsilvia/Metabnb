@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footerdown from '../footerdown/Footerdown';
 import Header from '../header/Header';
 import Placetostayheader from '../placetostayheader/Placetostayheader';
@@ -21,10 +21,13 @@ import  ptsimagefifteen from '../../images/ptsimagefifteen.svg';
 import  ptsimagesixteen from '../../images/ptsimagesixteen.svg';
 import inspirestar from '../../images/inspirestar.svg';
 import InspirationComponent from '../inspiration/InspirationComponent';
+import Connectwallet from '../connectwallet/Connectwallet';
 
 
 
 function Placetostay() {
+  const [toggleOpen, setToggleOpen] = useState(false)
+
   const inspirationDetails=[
     {
       img: ptsimageone,
@@ -157,7 +160,7 @@ function Placetostay() {
   ]
   return (
     <>
-        <Header />
+        <Header setToggleOpen={setToggleOpen}/>
         <Placetostayheader/>
         <div id="placetostay__container">
      {inspirationDetails.map((data,index)=>(
@@ -165,269 +168,9 @@ function Placetostay() {
      )) }
       </div>
 
+      {toggleOpen && <Connectwallet setToggleOpen={setToggleOpen}/>}
 
-         {/* <div>
-         <div className="inspireclass">
-         <img src={ptsimageone} alt="ptsimageone" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-
-        <div className="inspireclass">
-        <img src={ptsimagetwo} alt="ptsimagetwo"/>
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-         
-        <div className="inspireclass">
-        <img src={ptsimagethree} alt="ptsimagethree"/>
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-          
-          
-          
-          <div className="inspireclass">
-          <img src={ptsimagefour} alt="ptsimagefour" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-
-        <div className="inspireclass">
-        <img src={ptsimagefive} alt="ptsimagefive"/>
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-
-        <div className="inspireclass">
-        <img src={ptsimagesix} alt="ptsimagesix" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-          
-        <div className="inspireclass">
-        <img src={ptsimageseven} alt="ptsimageseven" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-
-        <div className="inspireclass">
-        <img src={ptsimageeight} alt="ptsimageeight" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-
-        <div className="inspireclass">
-        <img src={ptsimagenine} alt="ptsimagenine" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-        <div className="inspireclass">
-        <img src={ptsimageten} alt="ptsimageten" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-          
-
-        <div className="inspireclass">
-        <img src={ptsimageeleven} alt="ptsimageeleven" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-
-          
-        <div className="inspireclass">
-        <img src={ptsimagetwelve} alt="ptsimagetwelve" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-          
-
-        <div className="inspireclass">
-        <img src={ptsimagethirteen} alt="ptsimagethirteen" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-          
-         
-          
-        <div className="inspireclass">
-        <img src={ptsimagefourteen} alt="ptsimagefourteen" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-
-
-        <div className="inspireclass">
-        <img src={ptsimagefifteen} alt="ptsimagefifteen" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-          
-        <div className="inspireclass">
-        <img src={ptsimagesixteen} alt="ptsimagesixteen" />
-          <div className="letters__inspire">
-            <div className="letters__left">
-              <p>Desert King</p>
-              <p>2345km away</p>
-            </div>
-            <div className="letters__right">
-              <p id='miniature__letter'>1MBT per night</p>
-              <p>available for 2weeks stay</p>
-            </div>
-          </div>
-          <img src={inspirestar} alt="inspirestar" />
-        </div>
-          
-
-          
         
-         </div> */}
-
         <Footerdown />
 
     </>

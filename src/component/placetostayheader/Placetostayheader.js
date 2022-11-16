@@ -5,7 +5,7 @@ import locationicon from '../../images/locationicon.svg';
 function Placetostayheader() {
   return (
     <div className='header__pts'>
-      
+      <div className='header_menu'>
           <div>Restaurant</div>
           <div>Cottage</div>
           <div>Castle</div>
@@ -14,7 +14,7 @@ function Placetostayheader() {
           <div>Carbins</div>
           <div>Off-grid</div>
           <div>Farm</div>
-        
+          </div>
           <div>
             <button id='location__btn'><label>Location</label> <img src={locationicon } alt="settings"/></button>
             </div>

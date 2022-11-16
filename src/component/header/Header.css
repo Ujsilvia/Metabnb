@@ -6,23 +6,63 @@
   
     padding: 2% 6.5%;
     gap: 48px;
-    left: 31.94%;
-    right: 17.58%;
-    top: 31.25%;
-    bottom: 20.83%;
+    /* border: 2px solid red; */
+    /* left: 31.94%; */
+    /* right: 17.58%; */
+    /* top: 31.25%; */
+    /* bottom: 20.83%; */
   }
   
   .nav_menu {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 9.5%;
     width: 100%;
     font-family: 'Red Rose';
     font-style:normal;
     font-weight:400;
-    font-size:20px;
-
+    font-size:20px; 
   }
+  .up_nav_wrapper{
+    /* display: flex; */
+    width: 100%;
+}
+  @media screen and (max-width: 768px) {
+    .up_nav_wrapper {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 4rem;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 5%;
+      gap: 34px;
+
+      box-sizing: border-box;
+    }  
+    .nav_menu{ 
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      
+
+    }  
+
+    .header{
+      /* box-sizing: border-box; */
+      padding: 5%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .hambugerIcon {
+      display: none; 
+      
+    }    
+    
+}
 
   .nav_menu :hover{
     color: #a02279;
