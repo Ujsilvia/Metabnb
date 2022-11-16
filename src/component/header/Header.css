@@ -15,8 +15,13 @@
   .nav_menu {
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 9.5%;
     width: 100%;
+    font-family: 'Red Rose';
+    font-style:normal;
+    font-weight:400;
+    font-size:20px;
+
   }
 
   .nav_menu :hover{
@@ -28,7 +33,13 @@
     color: #ffffff;
     background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 16px 5px;
     border-style: none;
+    width:280px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
   }
   

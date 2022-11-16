@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Dashboard from '../component/dashboard/Dashboard'
 import Footer from '../component/footer/Footer'
 import Header from '../component/header/Header'
@@ -10,16 +10,17 @@ import Footerdown  from '../component/footerdown/Footerdown'
 // import Placetostay from '../component/placetostay/Placetostay'
 import Connectwallet from '../component/connectwallet/Connectwallet'
 
-const Homepage = () => (
-      <div>
-        <Header />
+function Homepage() {
+  const [toggleOpen, setToggleOpen] = useState(false)
+     return (<div>
+        <Header setToggleOpen={setToggleOpen} />
         <Dashboard />
         <Footer />
         <Inspiration/>
         <Down />
         <Footerdown />
-        <Connectwallet />
-      </div>
-)
+        {toggleOpen && <Connectwallet setToggleOpen={setToggleOpen}/>}
+      </div>)
+}
 
 export default Homepage

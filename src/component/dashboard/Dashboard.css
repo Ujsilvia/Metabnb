@@ -12,9 +12,10 @@
   span {
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 36px;
     color: #a02279;
+
   }
   
   #sentence {
@@ -27,19 +28,26 @@
     line-height: 36px;
   }
   
+
   #letter {
     font-weight: 400;
-    font-size: 50px;
+    font-size: 56px;
     line-height: 140%;
     color: #434343;
+    letter-spacing: -0.02em;
+    margin-bottom:20px;
   }
   
+
   #luxury {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
     color: #434343;
+    font-family:'Red Rose';
+    margin-bottom:25px;
+
   }
   
   #forming {

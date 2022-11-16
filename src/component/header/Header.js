@@ -4,7 +4,7 @@ import './Header.css';
 import { Link, useNavigate } from 'react-router-dom'
 
 
-function Header() {
+function Header({setToggleOpen}) {
   const navigate = useNavigate();
 
   const handlePlaceToStay = () => {
@@ -22,7 +22,7 @@ function Header() {
               <div>Community</div>
            </div>
            
-           <button id='connect'>Connect Wallet</button>
+           <button onClick={()=>setToggleOpen(true)} id='connect'>Connect Wallet</button>
            
 
           

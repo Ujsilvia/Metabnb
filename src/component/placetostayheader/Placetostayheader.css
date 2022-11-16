@@ -8,12 +8,16 @@
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
-    padding: 2% 6.5%;
-    gap: 8px;
+    padding: 2% 12% 2% 6.5%;
+    gap:5px;
     left: 31.4%;
     right: 17.58%;
     top: 31.25%;
     bottom: 20.83%;
+    font-weight:400;
+    font-size:20px;
+    color: #434343;
+    margin-top:50px;
 }
 
 #location__btn{
@@ -22,9 +26,15 @@
     align-items: center;
     border: 1px solid #B4B4B4;
     border-radius: 5px;
-    padding:10px;
-   
-    
+    padding:9%;
+    gap:40px;
 
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    background-color:#ffffff;
 }
 

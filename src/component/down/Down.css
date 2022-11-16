@@ -28,6 +28,7 @@
   font-size: 18px;
   line-height: 35px;
   color: #ffffff;
+  margin-bottom:20px;
 }
 
 #down__note {
@@ -47,7 +48,7 @@
 #learn__nft { 
   border: none;
   height: 48px;
-  width: 10rem;
+  width: 9.5rem;
   font-size: 16px;
   color:#a02279;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);

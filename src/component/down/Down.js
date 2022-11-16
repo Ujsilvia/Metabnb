@@ -11,7 +11,7 @@ function Down() {
       <p id='words__nft'> Discover our NFT gift cards collection. Loyal
         <br/>customers get amazing gift cards which are 
         <br/>traded as NFTs. These NFTs gives our customer 
-        <br/>access to loads of our exclusive services </p>
+        <br/>access to loads of our exclusive services. </p>
         <button id='learn__nft'>learn more</button>
         </div>
 
