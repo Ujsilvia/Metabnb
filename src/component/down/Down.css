@@ -9,6 +9,7 @@
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border: 1px solid #000000;
   border: none;
+  padding: 5%;
 }
 #down_info{
   display: flex;
@@ -18,6 +19,7 @@
 
 #nft__image img{
   width: 100%;
+  margin-top:5%;
 }
 
 #words__nft {
@@ -33,8 +35,8 @@
 }
 
 #down__note {
-  width: 346px;
-  height: 60px;
+  /* width: 346px; */
+  /* height: 60px; */
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;

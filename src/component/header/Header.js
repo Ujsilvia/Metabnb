@@ -10,6 +10,7 @@ function Header({setToggleOpen}) {
 
   const handlePlaceToStay = () => {
     navigate('/place-to-stay');
+    setToggleNav(false);
   }
 const [toggleNav, setToggleNav] = useState(true);
 const [width, setWidth] = useState(window.innerWidth);
@@ -35,7 +36,7 @@ useEffect(() => {
           </button>
             <div className='up_nav_wrapper' style={{display:toggleNav?"flex":"none"}}>
             <div className='nav_menu'>
-              <div><Link to="/">Home</Link></div>
+              <div><Link to="/" onClick={()=>setToggleNav(false)}>Home</Link></div>
               <div onClick={handlePlaceToStay}>Place To Stay</div>
               <div>NFTs</div>
               <div>Community</div>

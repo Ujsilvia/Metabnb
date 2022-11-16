@@ -16,7 +16,7 @@ function Down() {
         </div>
 
 
-        <div id='nft__image'> <img src={nfimage} alt="nfimage" /> </div>
+        <div id='nft__image'> <img src={nfimage} alt="nfimage" /></div>
     </div>
   )
 }
