@@ -23,6 +23,7 @@ function Header() {
            </div>
            
            <button id='connect'>Connect Wallet</button>
+           
 
           
       </div>

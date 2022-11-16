@@ -31,6 +31,7 @@ function Dashboard() {
         <img src={group} alt="group" />
       </div>
     </div>
+
   );
 }
 
