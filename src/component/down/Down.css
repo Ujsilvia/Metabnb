@@ -8,6 +8,7 @@
   min-height: 774px;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border: 1px solid #000000;
+  border: none;
 }
 #down_info{
   display: flex;
@@ -36,7 +37,7 @@
   height: 60px;
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 4rem;
   line-height: 60px;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   -webkit-background-clip: text;

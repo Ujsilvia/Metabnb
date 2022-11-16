@@ -76,6 +76,10 @@
     background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
     border-radius: 0px 8px 8px 0px;
   }
+
+  .home_img{
+    width: 100%;
+  }
   
   
   

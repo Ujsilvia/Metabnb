@@ -28,7 +28,7 @@ function Dashboard() {
       </div>
 
       <div>
-        <img src={group} alt="group" />
+        <img className="home_img" src={group} alt="group" />
       </div>
     </div>
 

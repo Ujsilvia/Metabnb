@@ -1,20 +1,23 @@
 
 #footer__icon {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* flex-direction: row; */
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
-    gap: 264px;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1.5% 10%;
+    /* gap: 264px; */
     background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   }
   
   
   #token {
-    left: 12.62%;
-    right: 74.95%;
-    top: 21.43%;
-    bottom: 21.43%;
+    /* left: 12.62%; */
+    /* right: 74.95%; */
+    /* top: 21.43%; */
+    /* bottom: 21.43%; */
     font-family: "AirbnbCereal_W_Bd";
     font-style: normal;
     font-weight: 700;
