@@ -2,7 +2,7 @@ import React, { useEffect, useState } from  'react';
 import house from  '../../images/houseicon.svg';
 import './Header.css';
 import { Link, useNavigate } from 'react-router-dom'
-// import { GiHamburgerMenu } from 'react-icons/gi';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 
 function Header({setToggleOpen}) {
@@ -20,16 +20,18 @@ const handleWindowSizeChange = () => {
     setToggleNav(true);
 }
 }
+
+// eslint-disable-next-line react-hooks/exhaustive-deps
 useEffect(() => {
   window.addEventListener('resize', handleWindowSizeChange);
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [width]);
 
     return (
         <div className="header">
             <img src={house} alt="house logo"  />
             <button className='hambugerIcon' onClick={()=>setToggleNav(!toggleNav)}>
-            {/* <GiHamburgerMenu /> */}
+            <GiHamburgerMenu />
           </button>
             <div className='up_nav_wrapper' style={{display:toggleNav?"flex":"none"}}>
             <div className='nav_menu'>

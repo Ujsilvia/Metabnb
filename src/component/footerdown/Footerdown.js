@@ -4,7 +4,7 @@ import metabnbdown from "../../images/metabnbdown.svg";
 import facebook from "../../images/facebook.svg";
 import instagram from "../../images/instagram.svg";
 import twitter from "../../images/twitter.svg";
-import copyright from "../../images/copyright.svg";
+
 
 function Footerdown() {
   return (
